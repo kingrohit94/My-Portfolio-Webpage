@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohitashwa's Portfolio Website</title>
+    <link href="normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#aboutme">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contactme">Contact Me</a></li>
+        </ul>
+    </nav>
+    <section class="hero">
+        <div class="container">
+            <img src="rohit.jpg">
+            <h1>Hi! I am Rohitashwa. I am a Full-Stack Software Developer. I have a Master's degree in Software Engineering. I like to write code and develop usefull applications!</h1>
+        </div>
+    </section>
+    <section id="aboutme" class="aboutme">
+        <h2>About Me</h2>
+        <div class="aboutme-section">
+            <div class="img">
+            <div class="aboutme-image"></div>
+            </div>
+            <div class="aboutme-text">
+            <p>I am a Software Engineer with a master's degree in Electrical & Computer Engineering (software) from Western University (London, Ontario). I have a bachelor's degree in Computer Science & Engineering from VIT University (Vellore, India). I specialize in front-end web development and databases.</p>
+            <p>I am currently working as an Application developer (full stack) for Evenica Corp. I am always looking for challenging work that helps me grow as a developer and adds to my expanding skillset. My skill set includes but is not limited to: Javascript, KnockoutJs, Angular, React, NodeJS, HTML5/SCSS, C#, C++, Python, MS Dynamics 365, Jira, AWS, Artificial Intelligence and MySQL/SQL.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="project">
+            <h2>Projects</h2>
+            <div class="projects">
+                <div class="india-project">
+                    <div class="text">
+                        <h3 class="project-name">India Economy Facts</h3>
+                        <div class="content">
+                            <p>A HTML projects about some interesting facts about India's economy.</p>
+                        </div>
+                        <a class="button" href="Indian Economy.html">View Project</a>
+                    </div>
+                </div>
+
+                <div class="bbc-project">
+                    <div class="text">
+                        <h3 class="project-name">BBC News Clone</h3>
+                        <div class="content">
+                            <p>This project is a clone of the BBC News website.</p>
+                        </div>
+                        <a class="button" href="#" disabled>View Project</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="contactme" class="contact">
+        <h2>Contact</h2>
+        <p>Use this form to get in touch! I would love to hear back from you!</p>
+
+        <form class="contact-form">
+            <div class="contact-details">
+                <label for="name">Name</label>
+                <input type="text" id="yourname" placeholder="Your Name">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" placeholder="Reason for your message">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Your email address">
+
+            </div>
+            <div class="message">
+                <label for="msg">Message</label>
+                <textarea id="msg" rows="15"></textarea>
+                <button type="submit">Submit</button>
+            </div>
+        </form>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="copyright">
+                This site &copy; 2024 Rohitashwa Ray Chowdhury
+            </div>
+            <div class="social-media">
+                <a href="https://www.facebook.com/"><i class="fa fa-facebook-official"></i></a>
+                <a href="https://twitter.com/"><i class="fa fa-twitter-square"></i></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
